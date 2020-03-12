@@ -1,6 +1,6 @@
 // custom middleware
-const postDB = require('./posts/postDB.js')
-const userDB = require('./users/userDB.js')
+const postDB = require('./posts/postDb.js')
+const userDB = require('./users/userDb.js')
 
 async function validatePostId(req, res, next) {
     try {
